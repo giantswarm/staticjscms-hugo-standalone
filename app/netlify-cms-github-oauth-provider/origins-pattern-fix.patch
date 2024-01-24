@@ -1,0 +1,11 @@
+diff --git a/login_script.js b/login_script.js
+index d7ef9ca..c8b8db3 100644
+--- a/login_script.js
++++ b/login_script.js
+@@ -1,5 +1,5 @@
+ const REQUIRED_ORIGIN_PATTERN = 
+-  /^((\*|([\w_-]{2,}))\.)*(([\w_-]{2,})\.)+(\w{2,})(\,((\*|([\w_-]{2,}))\.)*(([\w_-]{2,})\.)+(\w{2,}))*$/
++  /^((\*|\d.\d.\d.\d|[\w_-]{2,})+(\.([\w_-]{2,}))*)(:\d+)?$/
+ 
+ if (!process.env.ORIGINS.match(REQUIRED_ORIGIN_PATTERN)) {
+   throw new Error('process.env.ORIGIN MUST be comma separated list \
