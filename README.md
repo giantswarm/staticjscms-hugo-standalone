@@ -1,3 +1,5 @@
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/giantswarm/staticjscms-hugo-standalone/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/giantswarm/staticjscms-hugo-standalone/tree/master)
+
 # staticjscms-hugo-standalone
 
 > This is a fork of https://github.com/itsmejoeeey/docker-decap-cms-standalone which uses the Static CMS fork of Decap CMS, with settings and layout optimized for a Hugo documentation site.
