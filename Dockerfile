@@ -51,7 +51,7 @@ LABEL org.opencontainers.image.description="Run static-cms with GitHub OAuth pro
 
 # Environment vars
 ENV LOGLEVEL=info
-ENV ORIGINS=http://localhost
+ENV ORIGINS=localhost
 #
 ENV GIT_HOSTNAME=
 ENV OAUTH_CLIENT_ID=
