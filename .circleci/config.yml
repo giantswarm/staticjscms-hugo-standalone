@@ -10,7 +10,7 @@ workflows:
           name: push-to-registries
           push-to-quay: true
           push-to-docker: false
-          push-to-gsoci: false
+          push-to-gsoci: true
           push-to-aliyun: false
           filters:
             tags:
