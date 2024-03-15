@@ -9,6 +9,6 @@
   },
   "dependencies": {
     "express": "^4.18.2",
-    "express-http-proxy": "^1.6.3"
+    "express-http-proxy": "^2.0.0"
   }
 }
