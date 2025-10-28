@@ -1,7 +1,7 @@
 #
 # Prebuild Stage
 #
-FROM node:22-alpine AS prebuild
+FROM node:24-alpine AS prebuild
 
 # Package versions
 ARG STATICJS_CMS_VER=1.2.14
@@ -45,7 +45,7 @@ RUN cd /builder/netlify-cms-github-oauth-provider && \
 #
 # Main stage
 #
-FROM node:22-alpine AS main
+FROM node:24-alpine AS main
 LABEL org.opencontainers.image.source=https://github.com/giantswarm/staticjscms-hugo-standalone
 LABEL org.opencontainers.image.description="Run static-cms with GitHub OAuth provider (optimized for Hugo sites)"
 
